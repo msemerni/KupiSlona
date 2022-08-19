@@ -45,8 +45,8 @@ const Dashboard  = ({ newImg, onUpload, onNewAd}) => {
   
       const newAd = {
         ...(_id ? {_id: _id} : {}),
-        ...(imgArr.length ? {images: imgArr[0].url} : {}), /// для аватара
-        // ...(imgArr.length ? {images: imgArr} : {}), ///  для объяв
+        // ...(imgArr.length ? {images: imgArr[0].url} : {}), /// для аватара
+        ...(imgArr.length ? {images: imgArr} : {}), ///  для объяв
         title: title,
         description: description,
         tags: tags,
