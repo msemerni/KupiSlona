@@ -22,7 +22,7 @@ const BtnSignUp = ({ children }) => {
   )
 }
 
-const CUserInfo = connect(state => ({ children: state.info?.userProfile?.payload?.nick, className: "mx-2" || state.info?.userProfile?.payload?.login, to: "/dashboard" }))(Link)
+const CUserInfo = connect(state => ({ children: state.info?.userProfile?.payload?.nick || state.info?.userProfile?.payload?.login, className: "mx-2", to: "/dashboard" }))(Link)
 const CBtnLogIn = connect(state => ({ children: 'LogIn', disabled: !!state.auth.token }))(BtnLogIn)
 const CBtnSignUp = connect(state => ({ children: 'SignUp', disabled: state.auth.token }))(BtnSignUp)
 const CBtnLogOut = connect(state => ({ children: 'LogOut', disabled: !state.auth.token, className: "btn btn-outline-primary m-1 btn-sm" }), { onClick: actionAuthLogout })("button")
