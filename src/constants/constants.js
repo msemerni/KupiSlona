@@ -20,6 +20,7 @@ const tagList = [
   "Work",
   "Hobby, recreation and sports",
   "Electronics",
+  "Other"
 ];
 
 export {BACKEND_URL, BACKEND_URL_QUERY, BACKEND_URL_UPLOAD, EMAIL_REGEXP, PASSWORD_REGEXP, tagList};

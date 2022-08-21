@@ -1,7 +1,7 @@
 import React from 'react';
 import { BACKEND_URL } from '../constants/constants';
 import NO_IMAGE_AVA from '../image/default_ava.jpg';
-import store from '../redusers/store';
+import store from '../reducers/store';
 import { connect } from 'react-redux';
 import Loader from './Loader';
 

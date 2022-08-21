@@ -1,7 +1,7 @@
 import gql from "../utils/gql";
 import { actionPromise } from "./actionPromise";
 import actionUser from "./actionUser";
-import store from '../redusers/store';
+import store from '../reducers/store';
 import history from "../utils/history";
 
 const actionChangeProfile = (myProfile) =>

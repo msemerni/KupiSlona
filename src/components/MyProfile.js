@@ -56,7 +56,7 @@ const MyProfile = ({ myProfile: { _id, createdAt, login, nick, phones, addresses
       </Dropzone>
 
       <div className="mb-2 row">
-        <label htmlFor="inputEmail" className="col-sm-2 col-form-label text-start">Email:</label>
+        <label htmlFor="inputEmail" className="col-sm-2 col-form-label text-end">Email:</label>
         <div className="col-sm-8">
           <input type="text" id="inputEmail" className="form-control" placeholder='*required' value={myLogin} required /// type=email
             onChange={(e) => setMyLogin(e.target.value)} />
@@ -64,7 +64,7 @@ const MyProfile = ({ myProfile: { _id, createdAt, login, nick, phones, addresses
       </div>
 
       <div className="mb-2 row">
-        <label htmlFor="inputNick" className="col-sm-2 col-form-label text-start">Nick:</label>
+        <label htmlFor="inputNick" className="col-sm-2 col-form-label text-end">Nick:</label>
         <div className="col-sm-8">
           <input type="text" id="inputNick" className="form-control" placeholder='not required' value={myNick}
             onChange={(e) => setMyNick(e.target.value)} />
@@ -72,7 +72,7 @@ const MyProfile = ({ myProfile: { _id, createdAt, login, nick, phones, addresses
       </div>
 
       <div className="mb-2 row">
-        <label htmlFor="inputNick" className="col-sm-2 col-form-label text-start">Phones:</label>
+        <label htmlFor="inputNick" className="col-sm-2 col-form-label text-end">Phones:</label>
         <div className="col-sm-8">
           <input type="text" id="inputNick" className="form-control" placeholder='not required' value={myPhones}
             onChange={(e) => setMyPhones(e.target.value)} />
@@ -80,7 +80,7 @@ const MyProfile = ({ myProfile: { _id, createdAt, login, nick, phones, addresses
       </div>
 
       <div className="mb-2 row">
-        <label htmlFor="inputNick" className="col-sm-2 col-form-label text-start">Address:</label>
+        <label htmlFor="inputNick" className="col-sm-2 col-form-label text-end">Address:</label>
         <div className="col-sm-8">
           <input type="text" id="inputNick" className="form-control" placeholder='not required' value={myAddresses}
             onChange={(e) => setMyAddresses(e.target.value)} />

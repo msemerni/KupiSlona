@@ -8,7 +8,7 @@ import React from 'react';
 import { Provider } from 'react-redux';
 import { Router } from 'react-router-dom';
 import history from './utils/history';
-import store from './redusers/store';
+import store from './reducers/store';
 import actionAuthLogin from './actions/actionAuthLogin';
 import CHeader from './components/Header';
 import Content from './components/Content';

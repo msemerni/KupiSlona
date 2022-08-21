@@ -1,6 +1,6 @@
 import actionUser from './actionUser';
 import history from "../utils/history";
-import store from '../redusers/store';
+import store from '../reducers/store';
 
 const actionAuthLogin = (token) =>
     (dispatch, getState) => {

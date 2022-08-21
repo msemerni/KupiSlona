@@ -1,6 +1,6 @@
 import { BACKEND_URL } from '../constants/constants.js';
 
-const SliderImageries = ({ imgArray }) => {
+const SliderImages = ({ imgArray }) => {
 
   return (
     imgArray[0] &&
@@ -30,4 +30,4 @@ const SliderImageries = ({ imgArray }) => {
   )
 }
 
-export default SliderImageries;
+export default SliderImages;

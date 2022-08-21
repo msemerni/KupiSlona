@@ -1,5 +1,5 @@
 import actionUser from "./actionUser";
-import store from "../redusers/store";
+import store from "../reducers/store";
 import history from "../utils/history";
 
 const actionAuthLogout = () =>
