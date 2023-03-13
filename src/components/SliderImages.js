@@ -9,10 +9,10 @@ const SliderImages = ({ imgArray }) => {
         {imgArray.map((img, index) =>
           index === 0 ?
             <div key={img._id} className="carousel-item active">
-              <img className="d-block w-100 rounded " alt="picture" src={`${BACKEND_URL}${img.url}`} />
+              <img className="d-block w-75 mx-auto rounded " alt="picture" src={`${BACKEND_URL}${img.url}`} />
             </div> :
             <div key={img._id} className="carousel-item">
-              <img className="d-block w-100 rounded " alt="picture" src={`${BACKEND_URL}${img.url}`} />
+              <img className="d-block w-75 mx-auto rounded " alt="picture" src={`${BACKEND_URL}${img.url}`} />
             </div>
         )}
       </div>

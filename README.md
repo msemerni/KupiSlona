@@ -1,5 +1,4 @@
 # [#KupiSlona](http://kupislona.msemerni.php.a-level.com.ua/ads)
-# [#KupiSlona](https://kupyislona.herokuapp.com/ads)
 
 ///////////////////////////////////////////////////////////
 React: как хостить

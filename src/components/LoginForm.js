@@ -11,7 +11,7 @@ const LoginForm = ({ onLogin }) => {
     <form className='m-auto p-5 w-100 h-100 text-center bg-light'>
       <div className="m-1">
         <label className="form-label">Email:
-          <input type="text"
+          <input type="email"
             required
             className="form-control"
             onChange={e => setLogin(e.target.value)} />

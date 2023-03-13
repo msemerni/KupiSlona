@@ -8,7 +8,7 @@ import actionAvatarUpload from '../actions/actionAvatarUpload';
 import Dropzone from 'react-dropzone';
 
 
-const MyProfile = ({ myProfile: { _id, createdAt, login, nick, phones, addresses },
+const MyProfile = ({ myProfile: { _id, createdAt, login, nick, phones, addresses } = {},
   status, newImg, onChangeProfile, onUpload }) => {
 
   useEffect(() => {
